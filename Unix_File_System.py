@@ -142,3 +142,36 @@ print(my_linux_find.apply_OR_filtering(f1))
 
 # Apply AND filtering and print results
 print(my_linux_find.apply_AND_filtering(f1))
+
+
+'''
+
+Class: File
+    Methods:
+        - __init__(self, name, size)
+        - __repr__(self)
+
+Class: Filter (ABC)
+    Methods:
+        - __init__(self)
+        - apply(self, file)
+
+Class: MinSizeFilter (Filter)
+    Methods:
+        - __init__(self, size)
+        - apply(self, file)
+
+Class: ExtensionFilter (Filter)
+    Methods:
+        - __init__(self, extension)
+        - apply(self, file)
+
+Class: LinuxFind
+    Methods:
+        - __init__(self)
+        - add_filter(self, given_filter)
+        - apply_OR_filtering(self, root)
+        - apply_AND_filtering(self, root)
+
+
+'''
