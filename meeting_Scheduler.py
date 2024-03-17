@@ -84,19 +84,19 @@ for meeting in history:
     '''
     
     Class: MeetingRoomScheduler
-    Methods:
-        - __init__(self)
-        - add_meeting_room(self, room_id)
-        - book_meeting(self, room_id, start_time, end_time, participants)
-        - get_history(self, room_id)
-
-Class: MeetingRoom
-    Methods:
-        - __init__(self, room_id)
-        - book_meeting(self, start_time, end_time, participants)
-        - is_available(self, start_time, end_time)
-        - notify(self, participants)
-        - get_history(self)
+        Methods:
+            - __init__(self)
+            - add_meeting_room(self, room_id)
+            - book_meeting(self, room_id, start_time, end_time, participants)
+            - get_history(self, room_id)
+    
+    Class: MeetingRoom
+        Methods:
+            - __init__(self, room_id)
+            - book_meeting(self, start_time, end_time, participants)
+            - is_available(self, start_time, end_time)
+            - notify(self, participants)
+            - get_history(self)
         
         
         '''
